@@ -10,13 +10,23 @@
     <form action="" method="GET">
         <label for="imie">Imię</label>
         <input type="text" id="imie" name="imie">
-        
-         <label for="nazwisko">nazwisko</label>
+
+        <label for="nazwisko">nazwisko</label>
         <input type="text" id="nazwisko" name="nazwisko">
 
-        
         <input type="submit" value="Wyślij">
+        
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email">
+        
+        <label for="number">Numer telefonu</label>
+        <input type="number" name="number" id="number">
     </form>
+    <form method="POST" action="https://formspree.io/YOUREMAILHERE">
+  <input type="email" name="email" placeholder="Your email">
+  <textarea name="message" placeholder="Your message"></textarea>
+  <button type="submit">Send</button>
+</form>
 </body>
 
 </html>
